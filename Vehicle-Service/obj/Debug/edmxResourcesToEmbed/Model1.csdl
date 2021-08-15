@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbVehicleServiceModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Tbl_Admin">
+    <Key>
+      <PropertyRef Name="AdminID" />
+    </Key>
+    <Property Name="AdminID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AdminName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AdminPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Tbl_Vehicles">
+    <Key>
+      <PropertyRef Name="VehicleID" />
+    </Key>
+    <Property Name="VehicleID" Type="Int16" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleOwners" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleBrand" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleModel" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VehiclePlate" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="VehicleProblem" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DbVehicleServiceEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" />
+    <EntitySet Name="Tbl_Vehicles" EntityType="Self.Tbl_Vehicles" />
+  </EntityContainer>
+</Schema>
