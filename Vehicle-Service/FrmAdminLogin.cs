@@ -24,7 +24,7 @@ namespace Vehicle_Service
             var ent = connection.EntityFramework();
 
             var login = (from x in ent.Tbl_Admin where x.AdminName == textBox1.Text && x.AdminPassword == textBox2.Text select x);
-            if (login.Any())
+            if (login.Any()) // Any Data Read
             {
                 FrmVehicles fr = new FrmVehicles();
                 fr.Show();

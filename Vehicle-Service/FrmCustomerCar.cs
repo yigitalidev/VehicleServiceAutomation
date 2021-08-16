@@ -23,7 +23,7 @@ namespace Vehicle_Service
 
         private void FrmCustomerCar_Load(object sender, EventArgs e)
         {
-            var ent = connection.EntityFramework();
+            var ent = connection.EntityFramework(); // Connection.cs Class
             Tbl_Vehicles tbl_Vehicles = new Tbl_Vehicles();
             dataGridView1.DataSource = (from x in ent.Tbl_Vehicles where x.VehiclePlate == Plate select new {x.VehicleID,x.VehicleBrand,x.VehicleModel,x.VehiclePlate,x.VehicleOwners,x.VehicleStatus,x.VehicleProblem}).ToList();
         }

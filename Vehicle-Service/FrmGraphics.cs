@@ -20,6 +20,8 @@ namespace Vehicle_Service
 
         private void FrmGraphics_Load(object sender, EventArgs e)
         {
+            // Graphics 1
+
             SqlCommand chartCommand1 = new SqlCommand("Select VehicleStatus,Count(*) from Tbl_Vehicles group by VehicleStatus", Connection.SqlServer());
             SqlDataReader chartReader = chartCommand1.ExecuteReader();
             while (chartReader.Read())
@@ -28,6 +30,8 @@ namespace Vehicle_Service
             }
             Connection.SqlServer().Close();
 
+
+            // Graphics 2
 
             SqlCommand chartCommand2 = new SqlCommand("Select VehicleStatus,Count(*) from Tbl_Vehicles group by VehicleStatus", Connection.SqlServer());
             SqlDataReader chartReader2 = chartCommand2.ExecuteReader();

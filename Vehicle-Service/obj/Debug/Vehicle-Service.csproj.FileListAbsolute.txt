@@ -20,3 +20,17 @@ C:\Users\YigitAli\source\repos\Vehicle-Service\Vehicle-Service\obj\Debug\Vehicle
 C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\Vehicle-Service.exe.config
 C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.exe
 C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.pdb
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\Vehicle-Service.exe
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\Vehicle-Service.pdb
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\EntityFramework.dll
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\EntityFramework.xml
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.csprojResolveAssemblyReference.cache
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.FrmCustomerCar.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.FrmCustomerLogin.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.FrmAdminLogin.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.FrmGraphics.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.FrmVehicles.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.Properties.Resources.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.csproj.GenerateResource.Cache
