@@ -17,3 +17,6 @@ C:\Users\YigitAli\source\repos\Vehicle-Service\Vehicle-Service\obj\Debug\Vehicle
 C:\Users\YigitAli\source\repos\Vehicle-Service\Vehicle-Service\obj\Debug\Vehicle_Service.FrmAdminLogin.resources
 C:\Users\YigitAli\source\repos\Vehicle-Service\Vehicle-Service\obj\Debug\Vehicle_Service.FrmCustomerCar.resources
 C:\Users\YigitAli\source\repos\Vehicle-Service\Vehicle-Service\obj\Debug\Vehicle_Service.FrmGraphics.resources
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\bin\Debug\Vehicle-Service.exe.config
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.exe
+C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.pdb

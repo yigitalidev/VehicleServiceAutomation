@@ -29,6 +29,7 @@ namespace Vehicle_Service
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdminLogin));
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -43,35 +44,39 @@ namespace Vehicle_Service
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(79, 35);
+            this.label1.Location = new System.Drawing.Point(105, 43);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(532, 34);
+            this.label1.Size = new System.Drawing.Size(682, 43);
             this.label1.TabIndex = 3;
             this.label1.Text = "Security Auto Service Admin Panel";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(333, 136);
+            this.textBox1.Location = new System.Drawing.Point(444, 167);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(131, 25);
+            this.textBox1.Size = new System.Drawing.Size(173, 30);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(333, 178);
+            this.textBox2.Location = new System.Drawing.Point(444, 219);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(131, 25);
+            this.textBox2.Size = new System.Drawing.Size(173, 30);
             this.textBox2.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(209, 141);
+            this.label2.Location = new System.Drawing.Point(279, 174);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 20);
+            this.label2.Size = new System.Drawing.Size(136, 25);
             this.label2.TabIndex = 6;
             this.label2.Text = "Admin Name :";
             // 
@@ -79,17 +84,19 @@ namespace Vehicle_Service
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(182, 183);
+            this.label3.Location = new System.Drawing.Point(243, 225);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 20);
+            this.label3.Size = new System.Drawing.Size(170, 25);
             this.label3.TabIndex = 7;
             this.label3.Text = "Admin Password :";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(333, 224);
+            this.button1.Location = new System.Drawing.Point(444, 276);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 28);
+            this.button1.Size = new System.Drawing.Size(160, 34);
             this.button1.TabIndex = 8;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
@@ -98,19 +105,20 @@ namespace Vehicle_Service
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Vehicle_Service.Properties.Resources.icons8_microsoft_admin_96px_2;
-            this.pictureBox1.Location = new System.Drawing.Point(669, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(892, 15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(153, 122);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // FrmAdminLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.DarkOrange;
-            this.ClientSize = new System.Drawing.Size(796, 274);
+            this.ClientSize = new System.Drawing.Size(1061, 337);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -118,6 +126,8 @@ namespace Vehicle_Service
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FrmAdminLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
