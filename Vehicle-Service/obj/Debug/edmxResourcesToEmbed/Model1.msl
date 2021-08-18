@@ -13,13 +13,14 @@
     <EntitySetMapping Name="Tbl_Vehicles">
       <EntityTypeMapping TypeName="DbVehicleServiceModel.Tbl_Vehicles">
         <MappingFragment StoreEntitySet="Tbl_Vehicles">
+          <ScalarProperty Name="Date" ColumnName="Date" />
           <ScalarProperty Name="VehicleProblem" ColumnName="VehicleProblem" />
-          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
-          <ScalarProperty Name="VehicleOwners" ColumnName="VehicleOwners" />
-          <ScalarProperty Name="VehicleBrand" ColumnName="VehicleBrand" />
-          <ScalarProperty Name="VehicleModel" ColumnName="VehicleModel" />
-          <ScalarProperty Name="VehicleStatus" ColumnName="VehicleStatus" />
           <ScalarProperty Name="VehiclePlate" ColumnName="VehiclePlate" />
+          <ScalarProperty Name="VehicleStatus" ColumnName="VehicleStatus" />
+          <ScalarProperty Name="VehicleModel" ColumnName="VehicleModel" />
+          <ScalarProperty Name="VehicleBrand" ColumnName="VehicleBrand" />
+          <ScalarProperty Name="VehicleOwners" ColumnName="VehicleOwners" />
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

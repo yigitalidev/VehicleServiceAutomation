@@ -17,7 +17,7 @@ namespace Vehicle_Service
 
         public static SqlConnection SqlServer()
         {
-            SqlConnection connectionSql = new SqlConnection("Data Source=DESKTOP-N4P9SDV\\SQLEXPRESS;Initial Catalog=DbVehicleService;Integrated Security=True");
+            SqlConnection connectionSql = new SqlConnection(System.IO.File.ReadAllText(@"C:\dataconnect.txt"));
             connectionSql.Open();
             return connectionSql;
         }

@@ -21,5 +21,6 @@ namespace Vehicle_Service
         public string VehicleStatus { get; set; }
         public string VehiclePlate { get; set; }
         public string VehicleProblem { get; set; }
+        public string Date { get; set; }
     }
 }

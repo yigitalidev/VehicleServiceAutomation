@@ -19,6 +19,7 @@
     <Property Name="VehicleStatus" Type="varchar" MaxLength="20" />
     <Property Name="VehiclePlate" Type="varchar" MaxLength="10" />
     <Property Name="VehicleProblem" Type="varchar" MaxLength="100" />
+    <Property Name="Date" Type="varchar" MaxLength="30" />
   </EntityType>
   <EntityContainer Name="DbVehicleServiceModelStoreContainer">
     <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" Schema="dbo" store:Type="Tables" />

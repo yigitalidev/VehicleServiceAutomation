@@ -21,17 +21,29 @@ namespace Vehicle_Service
         Connection connection = new Connection();
        
 
-        void refresh()
+        void listed()
         {
             var ent = connection.EntityFramework();
             dataGridView1.DataSource = ent.Tbl_Vehicles.ToList();
         }
 
-        private void FrmVehicles_Load(object sender, EventArgs e)
+        void refresh()
         {
-            refresh();
+            txtID.Text = null;
+            txtBrand.Text = null;
+            txtModel.Text = null;
+            txtOwner.Text = null;
+            txtPlate.Text = null;
+            txtProblem.Text = null;
+            mskDate.Text = null;
+            rbPreparing.Checked = false;
+            rbReady.Checked = false;
         }
 
+        private void FrmVehicles_Load(object sender, EventArgs e)
+        {
+            listed();
+        }
 
         private void btnVehAdd_Click(object sender, EventArgs e)
         {
@@ -45,6 +57,7 @@ namespace Vehicle_Service
                 tbl_Vehicles.VehiclePlate = txtPlate.Text;
                 tbl_Vehicles.VehiclePlate = txtPlate.Text;
                 tbl_Vehicles.VehicleProblem = txtProblem.Text;
+                tbl_Vehicles.Date = mskDate.Text;
                 if (rbPreparing.Checked)
                 {
                     tbl_Vehicles.VehicleStatus = "Preparing";
@@ -56,6 +69,7 @@ namespace Vehicle_Service
                 ent.Tbl_Vehicles.Add(tbl_Vehicles);
                 ent.SaveChanges();
                 MessageBox.Show("Vehicle Added", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                listed();
                 refresh();
             }
             catch (Exception)
@@ -74,6 +88,7 @@ namespace Vehicle_Service
                 ent.Tbl_Vehicles.Remove(vehicle);
                 ent.SaveChanges();
                 MessageBox.Show("Vehicle Deleted", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                listed();
                 refresh();
             }
             catch (Exception)
@@ -94,6 +109,7 @@ namespace Vehicle_Service
                 vehicle.VehicleModel = txtModel.Text;
                 vehicle.VehiclePlate = txtPlate.Text;
                 vehicle.VehicleProblem = txtProblem.Text;
+                vehicle.Date = mskDate.Text;
                 if (rbPreparing.Checked)
                 {
                     vehicle.VehicleStatus = "Preparing";
@@ -104,6 +120,7 @@ namespace Vehicle_Service
                 }
                 ent.SaveChanges();
                 MessageBox.Show("Vehicle Information Updated", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                listed();
                 refresh();
             }
             catch (Exception)
@@ -129,6 +146,7 @@ namespace Vehicle_Service
             }
             txtPlate.Text = dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString();
             txtProblem.Text = dataGridView1.Rows[e.RowIndex].Cells[6].Value.ToString();
+            mskDate.Text = dataGridView1.Rows[e.RowIndex].Cells[7].Value.ToString();
         }
 
         private void btunGraphics_Click(object sender, EventArgs e)

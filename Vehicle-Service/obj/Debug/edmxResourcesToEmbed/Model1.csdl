@@ -8,6 +8,10 @@
     <Property Name="AdminName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="AdminPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
   </EntityType>
+  <EntityContainer Name="DbVehicleServiceEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" />
+    <EntitySet Name="Tbl_Vehicles" EntityType="DbVehicleServiceModel.Tbl_Vehicles" />
+  </EntityContainer>
   <EntityType Name="Tbl_Vehicles">
     <Key>
       <PropertyRef Name="VehicleID" />
@@ -19,9 +23,6 @@
     <Property Name="VehicleStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="VehiclePlate" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
     <Property Name="VehicleProblem" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Date" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
   </EntityType>
-  <EntityContainer Name="DbVehicleServiceEntities2" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Tbl_Admin" EntityType="Self.Tbl_Admin" />
-    <EntitySet Name="Tbl_Vehicles" EntityType="Self.Tbl_Vehicles" />
-  </EntityContainer>
 </Schema>

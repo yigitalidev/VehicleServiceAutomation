@@ -34,3 +34,22 @@ C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\
 C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.FrmVehicles.resources
 C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle_Service.Properties.Resources.resources
 C:\Users\yigit\OneDrive\Masaüstü\VehicleServiceAutomation\Vehicle-Service\obj\Debug\Vehicle-Service.csproj.GenerateResource.Cache
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\Vehicle-Service.exe.config
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\Vehicle-Service.exe
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\Vehicle-Service.pdb
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\EntityFramework.dll
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\EntityFramework.xml
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle-Service.csproj.AssemblyReference.cache
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle_Service.FrmCustomerCar.resources
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle_Service.FrmCustomerLogin.resources
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle_Service.FrmAdminLogin.resources
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle_Service.FrmGraphics.resources
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle_Service.FrmVehicles.resources
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle_Service.Properties.Resources.resources
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle-Service.csproj.GenerateResource.cache
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle-Service.csproj.CoreCompileInputs.cache
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle-Service.csproj.CopyComplete
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle-Service.exe
+C:\Users\YigitAli\Desktop\Git Clone\VehicleService\Vehicle-Service\obj\Debug\Vehicle-Service.pdb

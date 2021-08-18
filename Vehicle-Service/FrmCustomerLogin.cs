@@ -30,11 +30,11 @@ namespace Vehicle_Service
                 fr.Plate = textBox2.Text;
                 fr.Show();
                 this.Hide();
-                MessageBox.Show("Giriş Başarılı", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Login Successful", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Giriş Başarısız", "System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Login Failed", "System", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

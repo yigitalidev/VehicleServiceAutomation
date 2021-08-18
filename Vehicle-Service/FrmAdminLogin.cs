@@ -29,11 +29,11 @@ namespace Vehicle_Service
                 FrmVehicles fr = new FrmVehicles();
                 fr.Show();
                 this.Hide();
-                MessageBox.Show("Giriş Başarılı", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Login successful", "System", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Giriş Başarısız", "System", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Login Failed", "System", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

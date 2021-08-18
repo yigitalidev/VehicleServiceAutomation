@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="4be2a32ba9d64b11880ccd15d7e682cb" Name="Diagram1">
         <EntityTypeShape EntityType="DbVehicleServiceModel.Tbl_Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="DbVehicleServiceModel.Tbl_Vehicles" Width="1.5" PointX="3.875" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbVehicleServiceModel.Tbl_Vehicles" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
